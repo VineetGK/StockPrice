@@ -1,0 +1,12 @@
+# Packages imported by StockPrice.ipynb (originally run on Colab, Python 3.6)
+pandas
+numpy
+matplotlib
+scikit-learn
+# Data source; the NSE/TATAGLOBAL dataset on Quandl has been retired
+quandl
+# The notebook uses fastai.structured.add_datepart, which only exists in fastai 0.7
+fastai==0.7.0
+# LSTM model (standalone Keras API: keras.models / keras.layers)
+keras
+tensorflow

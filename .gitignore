@@ -1,0 +1,20 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets (e.g. a Quandl API key)
+.env
+
+# Local data and saved models
+data/
+*.csv
+*.h5
+*.keras
+
+# Experiment tracking
+wandb/
